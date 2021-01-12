@@ -14,3 +14,9 @@ after_failure:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
   - chmod +x send.sh
   - ./send.sh failure $WEBHOOK_URL
+notifications:
+  email:
+    recipients:
+      - mehmetali.cin@student.pxl.be
+    on_success: never
+    on_failure: always
