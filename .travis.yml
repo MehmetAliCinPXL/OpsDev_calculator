@@ -20,3 +20,7 @@ notifications:
       - mehmetali.cin@student.pxl.be
     on_success: never
     on_failure: always
+deploy:
+  provider: heroku
+  api_key: $API_KEY
+  app: my-app-123
