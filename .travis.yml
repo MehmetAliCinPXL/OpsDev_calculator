@@ -25,4 +25,4 @@ deploy:
   api_key: $API_KEY
   on:
     branch: main
-  app: opsdevcalculatorpxl
+  app: turkcalculator
