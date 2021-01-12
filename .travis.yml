@@ -23,4 +23,4 @@ notifications:
 deploy:
   provider: heroku
   api_key: $API_KEY
-  app: my-app-123
+  app: opsdevcalculatorpxl
