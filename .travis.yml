@@ -23,4 +23,6 @@ notifications:
 deploy:
   provider: heroku
   api_key: $API_KEY
+  on:
+    branch: main
   app: opsdevcalculatorpxl
